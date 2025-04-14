@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main() {
   User kullanici1 = User(name: "burak", age: 20);
   print(kullanici1.getUser());
