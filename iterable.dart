@@ -9,4 +9,9 @@ void main() {
 
   var iterableList = Map<int, String>.fromIterables(Sayilar, Isimler);
   print(iterableList);
+
+  iterableList.update(1, (v) => "hello " + v);
+  print(iterableList);
+  iterableList.updateAll((key, s) => "hello " + s);
+  print(iterableList);
 }
