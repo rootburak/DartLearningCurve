@@ -22,7 +22,8 @@ void main() {
   print(age ?? "your age undefined");
 
   List<String?> stringList = [null];
-  // first?. means check is null if you remove ?. you get error
+  // first?. means check is null if is null you can't get a error
+  // if you remove ?. you get a error
   if (stringList.first?.length == null) {
     print("your list is null");
   } else {
